@@ -1,3 +1,4 @@
+class Solution{
 int search(List<int> nums, int target) {
   int left = 0;
   inr right = nums.length - 1;
@@ -9,6 +10,9 @@ int search(List<int> nums, int target) {
       left = mid + 1;
     } else {
       right = mid - 1;
-    }
-  } return -1;
+      }
+    } return -1;
+  }
 }
+
+
