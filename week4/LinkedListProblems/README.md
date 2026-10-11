@@ -12,3 +12,6 @@
   Is there a more efficient approach? 
   No, 
     O(n) time is optimal because every node must be inspected at least once
+
+
+actually the time complexity, I couldn't like tell which one was so I searched for it
