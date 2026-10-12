@@ -11,18 +11,18 @@ class Solution {
     }
 
     // reversing the second half
-    ListNode? prev = null;
+    ListNode? tail = null;
     ListNode? curr = slow?.next;
     while (curr != null) {
       ListNode? nextTemp = curr.next;
-      curr.next = prev;
-      prev = curr;
+      curr.next = tail;
+      tail = curr;
       curr = nextTemp;
     }
 
     //compare the first normal and second reversed
     ListNode? p1 = head;
-    ListNode? p2 = prev;
+    ListNode? p2 = tail;
     bool result = true;
 
     while (result && p2 != null) {
