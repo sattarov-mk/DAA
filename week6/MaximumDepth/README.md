@@ -1,3 +1,5 @@
+I actually tried to write my self but it was soo long so I ask gemini to write it but I solved myself the problems
+
 Given the root of a binary tree, 
 find its maximum depth (the total number of nodes along the longest path from the root down to the farthest leaf node)
 
