@@ -1,4 +1,4 @@
-
+I actually tried to write my self but it was soo long so I ask gemini to write it but I solved myself the problems
 
 # Minimum Depth of Binary Tree (LeetCode 111)
 
